@@ -1,0 +1,10 @@
+{
+  "name": "tracery",
+  "version": "0.0.1",
+  "description": "Little Logging HTTP Proxy",
+  "author": "Valery Baleyko <baleyko@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  }
+}

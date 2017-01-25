@@ -1,0 +1,9 @@
+tracey:
+  build: .
+  environment:
+    UPSTREAM: http://google.com/
+  volumes:
+    - "./package.json:/app/package.json"
+    - "./index.js:/app/index.js"
+  ports:
+    - "8080:80"
