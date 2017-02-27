@@ -1,4 +1,4 @@
-tracey:
+tracery:
   build: .
   environment:
     UPSTREAM: http://google.com/
