@@ -7,3 +7,4 @@ tracery:
     - "./index.js:/app/index.js"
   ports:
     - "8080:80"
+  tty: true

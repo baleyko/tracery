@@ -11,7 +11,9 @@ net.createServer((client) => {
     const logfile = new stream.PassThrough();
     client.pipe(server).pipe(logfile);
     server.pipe(client).pipe(logfile).on('finish', () => {
-      logfile.pipe(process.stdout);
+      logfile.pipe(process.stdout).on('finish', () => {
+        process.stdout.write('\n\n')
+      })
     });
   });
 }).listen(80);
