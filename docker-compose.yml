@@ -1,10 +1,9 @@
-tracery:
-  build: .
-  environment:
-    UPSTREAM: http://google.com/
-  volumes:
-    - "./package.json:/app/package.json"
-    - "./index.js:/app/index.js"
-  ports:
-    - "8080:80"
-  tty: true
+version: "3"
+services:
+  tracery:
+    build: .
+    environment:
+      UPSTREAM: "google.com:80"
+    ports:
+      - "8080:80"
+    tty: true
