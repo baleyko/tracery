@@ -1,6 +1,6 @@
-# Tracery - nano HTTP proxy server that output all the request and response data to stdout.
+# Tracery - nano HTTP proxy server that outputs all the request and response data to stdout.
 
-You can pass TCP or UNIX socket as an upstream for this proxy. For now, supports only HTTP.
+You can pass TCP socket address as an upstream for this proxy. For now, supports only HTTP.
 
 ```shell
 $ git clone https://github.com/baleyko/tracery.git && cd tracery && docker-compose up
