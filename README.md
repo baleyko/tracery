@@ -1,5 +1,7 @@
 # Tracery - nano tcp proxy server that outputs all the request and response data to stdout.
 
+[![](https://images.microbadger.com/badges/image/baleyko/tracery.svg)](https://microbadger.com/images/baleyko/tracery "Get your own image badge on microbadger.com")
+
 You can pass TCP socket address as an upstream for this proxy.
 
 ```shell
